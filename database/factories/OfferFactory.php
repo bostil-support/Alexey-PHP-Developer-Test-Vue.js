@@ -12,7 +12,7 @@ class OfferFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => ucwords($this->faker->words(rand(2, 3))),
+            'name' => ucwords($this->faker->words(rand(2, 3), true)),
             'price' => rand(260000, 600000),
             'bedrooms' => rand(3, 5),
             'bathrooms' => rand(2, 3),
