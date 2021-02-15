@@ -10,7 +10,7 @@
 </head>
 <body>
 <div id="app">
-    <app></app>
+    <app :config='@json($filter)'></app>
 </div>
 
 <script src="{{ mix('js/app.js') }}"></script>
