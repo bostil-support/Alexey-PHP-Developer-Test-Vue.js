@@ -78,7 +78,7 @@ export default {
         storeys: [],
         garages: [],
         price: [this.config.min_price, this.config.max_price],
-        page: undefined,
+        page: this.currentPage,
       },
     }
   },
