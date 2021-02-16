@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::resource('offers', \App\Http\Controllers\Api\OfferController::class)->only('index');
+Route::post('offers/import', [\App\Http\Controllers\Api\OfferController::class, 'import']);
