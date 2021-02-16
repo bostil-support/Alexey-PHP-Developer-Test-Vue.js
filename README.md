@@ -1,6 +1,6 @@
 # Test
 
-Git - https://github.com/dev-abramoff/test \
+Git - https://github.com/bostil-support/Alexey-PHP-Developer-Test-Vue.js \
 Url - https://offers.bostil-test.cf/
 
 ## Installation
