@@ -21,6 +21,9 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
+        "element-ui": "^2.15.0",
+        "qs": "^6.7.0",
+        "reset-css": "^5.0.1",
         "vue": "^2.6.12"
     }
 }
